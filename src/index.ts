@@ -8,17 +8,9 @@
 // warranties are given as to title or non-infringement, merchantability or fitness for purpose 
 // and, to the extent permitted by law, all liability for your use of the code is disclaimed. 
 import Zilliqa from './zilliqa';
-import * as schnorr from './schnorr';
-import ZNode from './node';
-import * as util from './util';
-
-export { 
-  Zilliqa,
-  ZNode,
-  schnorr,
-  util 
-};
+export { default as Zilliqa } from './zilliqa';
 
 if (typeof window !== 'undefined' && typeof window.Zilliqa === 'undefined') {
   window.Zilliqa = Zilliqa;
 }
+

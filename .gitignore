@@ -2,5 +2,4 @@ node_modules
 \.DS_STORE
 \.rpt2_cache
 yarn-error\.log
-dist
 package-lock.json

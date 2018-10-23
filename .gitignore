@@ -3,4 +3,5 @@ node_modules
 \.rpt2_cache
 yarn-error\.log
 package-lock.json
+yarn.lock
 dist

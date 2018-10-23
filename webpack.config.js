@@ -86,4 +86,4 @@ const serverConfig = {
   }
 }
 
-module.exports = [baseConfig, serverConfig];
+module.exports = [baseConfig, clientConfig, serverConfig];
